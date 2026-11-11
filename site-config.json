@@ -1,0 +1,8 @@
+{
+  "version": "0.36 BETA1",
+  "sites": 8,
+  "bestiary_records": 18,
+  "survival_articles": 7,
+  "diary_records": 8,
+  "social_server_config": "snorkgram-server.json"
+}
