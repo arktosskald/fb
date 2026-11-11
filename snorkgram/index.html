@@ -1,0 +1,22 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="SnorkGram — сеть Зоны ZONEbook"><title>SnorkGram — F&B</title><link rel="icon" href="../assets/network.png"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/perimeter33.css"><script defer src="../assets/data.js"></script><script defer src="../assets/site.js"></script><script defer src="../assets/snorkgram.js"></script></head><body class="snork-entry" data-root="../"><a class="skip" href="#main">К содержанию</a><div class="topline"><div><span id="connection" data-version="0.36 BETA1">F&B · 0.36 BETA1</span><a lang="en" href="../en/snorkgram/index.html">English</a></div></div><header><div class="masthead"><a class="brand" href="../snorkgram/index.html">SnorkGram<span>полевые страницы</span></a><nav aria-label="Разделы"><a href="../index.html">Главная</a><a href="../bestiary/index.html">Бестиарий</a><a href="../survival/index.html">Выживание</a><a href="../diaries/index.html">Дневники</a><a href="../snorkgram/index.html" aria-current="page">SnorkGram</a><a href="../directory.html">Все сайты</a></nav></div></header><div id="status" class="status" role="status" aria-live="polite"></div><main class="wrap" id="main"><section class="hero"><div class="copy"><p class="eyebrow">Общий канал</p><h1>SnorkGram. На связи.</h1><p class="lead">Дневники сталкеров, фотографии и разговоры с теми, кто тоже вернулся из Зоны.</p></div><img src="../assets/camp.jpg" alt="Костёр ночью"></section><section class="snork-connect">
+    <form id="snork-connect">
+      <h2>Войти в общую сеть</h2>
+      <p>Участники одного сервера видят общие публикации, обсуждения и сообщества. Вход и регистрация откроются на выбранном сервере.</p>
+      <p id="snork-server-status" class="snork-hint" role="status" aria-live="polite">Адрес общего сервера ещё не задан. Можно указать свой сервер.</p>
+      <label for="snork-address">Адрес сервера</label>
+      <input id="snork-address" type="text" inputmode="url" maxlength="512" autocomplete="off" spellcheck="false" placeholder="https://snorkgram.example.org" aria-describedby="snork-help snork-status">
+      <p id="snork-help" class="snork-hint">Введите адрес ASP.NET-сервера, который обслуживает аккаунты. Если сервер запущен на этом ПК, нажмите «На этом компьютере».</p>
+      <div class="snork-actions">
+        <button class="primary" type="submit">Открыть сервер</button>
+        <button class="native" type="button" id="snork-local">На этом компьютере</button>
+        <button class="native" type="button" id="snork-reset">Сбросить адрес</button>
+      </div>
+      <details class="snork-troubleshoot"><summary>Сервер не открывается</summary><p>Запустите Start_Local_Server.cmd из папки SnorkGramServer и оставьте окно открытым. Откройте http://127.0.0.1:19210/ в обычном браузере. При ошибке смотрите Start_Local_Server.log в папке данных SnorkGram.</p></details>
+      <p id="snork-status" role="status" aria-live="polite"></p>
+    </form>
+    <aside>
+      <h2>Локальный SnorkGram</h2>
+      <p>Записи, профили и диалоги из сохранения доступны в игровом ноутбуке. У сетевого аккаунта своя лента и переписка.</p>
+      <button class="native" data-native-route="snorkgram">Открыть в ноутбуке</button>
+    </aside>
+  </section></main><footer><div><p>Материалы мира Зоны. Характеристики существ и снаряжения зависят от установленной сборки.</p><a href="../credits.html">Источники изображений</a><span>F&B / ZONEbook 0.36 BETA1</span></div></footer></body></html>
